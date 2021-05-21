@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should render pagination dots properly 1`] = `
+<div
+  data-test="pagination"
+>
+  <ul
+    className="pagination"
+  >
+    <div>
+      <li
+        className="page-item active"
+      >
+        <a
+          className="page-link"
+          href="/#"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="icon icon-swipe-circle-active"
+            onClick={[Function]}
+          >
+            <test-file-stub />
+          </i>
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/#"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="icon icon-swipe-circle-inactive"
+            onClick={[Function]}
+          >
+            <test-file-stub />
+          </i>
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/#"
+          onClick={[Function]}
+        >
+          <i
+            aria-hidden="true"
+            className="icon icon-swipe-circle-inactive"
+            onClick={[Function]}
+          >
+            <test-file-stub />
+          </i>
+        </a>
+      </li>
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`Pagination should render pagination numbers properly 1`] = `
+<div
+  data-test="pagination"
+>
+  <ul
+    className="pagination"
+  >
+    <div>
+      <li
+        className="page-item active"
+      >
+        <a
+          className="page-link"
+          href="/#"
+          onClick={[Function]}
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/#"
+          onClick={[Function]}
+        >
+          2
+        </a>
+      </li>
+      <li
+        className="page-item"
+      >
+        <a
+          className="page-link"
+          href="/#"
+          onClick={[Function]}
+        >
+          3
+        </a>
+      </li>
+    </div>
+  </ul>
+</div>
+`;
